@@ -1,11 +1,18 @@
 .App {
     --header_height: 60px;
+    font-family: Arial, sans-serif;
 }
 
 .hw {
-
+    padding: 30px 200px;
+    border-bottom: 1px solid rgb(220, 220, 220);
 }
 
 .hwTitle {
-
+    padding: 100px 200px 10px;
+    text-align: left;
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(220, 220, 220);
 }
