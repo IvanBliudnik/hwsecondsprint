@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hwsecondsprint/static/css/main.bd51bacf.css",
+    "main.js": "/hwsecondsprint/static/js/main.c071086e.js",
+    "static/js/787.66cb4309.chunk.js": "/hwsecondsprint/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/hwsecondsprint/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/hwsecondsprint/index.html",
+    "main.bd51bacf.css.map": "/hwsecondsprint/static/css/main.bd51bacf.css.map",
+    "main.c071086e.js.map": "/hwsecondsprint/static/js/main.c071086e.js.map",
+    "787.66cb4309.chunk.js.map": "/hwsecondsprint/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd51bacf.css",
+    "static/js/main.c071086e.js"
+  ]
+}
