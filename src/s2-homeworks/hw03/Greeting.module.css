@@ -1,35 +1,104 @@
 .greetingForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    height: 45px;
+    border: 1px solid #D9D9D9;
 }
 
-.error {
-}
+/*.error {*/
+/*    background: #CC0000;*/
+/*    color: white; !* Better contrast *!*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    font-size: 14px;*/
+/*    font-weight: 400;*/
+/*    line-height: 17.07;*/
+/*    text-align: left;*/
+/*    margin-top: 5px; !* Space above the error message *!*/
+/*}*/
 
 .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid #5e5757;
+    height: 45px;
+    flex: 1;
+    padding: 5px;
 }
 
 .input:focus {
+    border-color: #0066CC; /* Change border color on focus */
+    outline: none; /* Remove default outline */
 }
 
 .errorInput {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    position: inherit;
+    height: 45px;
+    border: 1px solid #CC0000;
 }
 
 .button {
+    width: 78px;
+    height: 36px;
+    padding: 5px 24px;
+    border-radius: 3px;
+    background-color: #0066CC;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center; /* Center text */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: background-color 0.3s; /* Smooth transition */
+    opacity: 1; /* Reset opacity */
 }
 
-.button:focus {
+.button:hover {
+    background-color: #005bb5; /* Darker shade on hover */
 }
 
 .button:active {
+    background-color: #004a8a; /* Even darker on active */
 }
 
 .button:disabled {
+    border-radius: 3px;
+    background: rgb(0, 102, 204);
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+    cursor: not-allowed;
 }
 
 .text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.5;
+    text-align: left;
+    color: #000000;
 }
 
 .greeting {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 10px; /* Space below greeting */
 }
