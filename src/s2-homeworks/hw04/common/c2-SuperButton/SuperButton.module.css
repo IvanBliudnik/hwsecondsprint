@@ -1,36 +1,93 @@
+/* Основные стили для кнопки */
 .button {
+    padding: 10px 20px; /* Внутренние отступы */
+    border: none; /* Без рамки */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+    font-size: 16px; /* Размер шрифта */
+    transition: background-color 0.3s, color 0.3s; /* Плавный переход */
 }
 
+/* Стили для отключенной кнопки */
 .disabled {
+    border-radius: 3px;
+    background: rgb(0, 77, 153);
+    opacity: 0.5;
+    cursor: not-allowed; /* Указывает, что кнопка отключена */
 }
 
+/* Стили для вторичной кнопки */
 .secondary {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 102, 204);
+    border-radius: 3px;
 }
 
+/* Основные стили по умолчанию для кнопки */
 .default {
+    border-radius: 3px;
+
+    /* Primary/100 */
+    background: rgb(0, 102, 204);
 }
 
+/* Стили для красной кнопки */
 .red {
+    border-radius: 3px;
+    /* Danger/100 */
+    background: rgb(204, 20, 57);
 }
 
+/* Эффект наведения для кнопки по умолчанию */
 .default:hover {
+    border-radius: 3px;
+
+    background: rgb(0, 128, 255);
 }
 
+/* Эффект наведения для красной кнопки */
 .red:hover {
-}
+    border-radius: 3px;
 
+    background: rgb(255, 26, 71);}
+
+/* Эффект наведения для вторичной кнопки */
 .secondary:hover {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 102, 204);
+    border-radius: 3px;
+
+    background: rgb(229, 240, 250);
 }
 
-
+/* Эффект нажатия для кнопки по умолчанию */
 .default:active {
+    border-radius: 3px;
+
+    background: rgb(0, 89, 179);
 }
 
+/* Эффект нажатия для вторичной кнопки */
 .secondary:active {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 102, 204);
+    border-radius: 3px;
+
+    background: rgb(201, 229, 255);
 }
 
+/* Эффект нажатия для красной кнопки */
 .red:active {
+    border-radius: 3px;
+
+    background: rgb(179, 18, 50);
 }
 
+/* Стили для отключенной кнопки */
 .button:disabled {
+    border-radius: 3px;
+
+    background: rgb(0, 77, 153);
+    opacity: 0.5;
+
 }
