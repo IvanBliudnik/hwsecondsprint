@@ -11,11 +11,7 @@
 .inputAndButtonContainer {
     display: flex;
     /* Используем флексбокс */
-    align-items: center;
-    /* Выравниваем по центру по вертикали */
-    justify-content: space-evenly;
     max-width: 600px;
-    padding: 10px; /* Паддинг для внутреннего отступа */
     box-sizing: border-box; /* Учитывать паддинги и границы в общей ширине */
 }
 
@@ -24,19 +20,36 @@
 .input {
     border: 1px solid #D9D9D9;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 3px;
     box-sizing: border-box;
-    margin: 10px 10px 10px 10px;
+    margin-right: 2em;
+    height: 40px;
+}
+.errorInput {
+    border: 1px solid #c61616;
+    color: #c61616;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 2em;
+    height: 40px;
 }
 
 .input:focus {
-    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
 }
 
 .button {
     width: 78px;
     /* Ширина кнопки */
-    height: 35px;
+    height: 40px;
     /* Высота кнопки */
     padding: 5px 0;
     /* Паддинг для кнопки */
@@ -71,12 +84,10 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
+    border-radius: 3px;
 }
 
-.errorInput {
-    border: 1px solid #c61616;
-    border-radius: 2px;
-}
+
 
 .text {
     font-family: 'Montserrat', sans-serif;
