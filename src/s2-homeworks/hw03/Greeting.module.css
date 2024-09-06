@@ -1,79 +1,61 @@
 .greetingForm {
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 30px;
 }
+
+/*сделано*/
 
 .inputAndButtonContainer {
     display: flex;
-    justify-content: center;
+    /* Используем флексбокс */
     align-items: center;
-    width: 100%;
+    /* Выравниваем по центру по вертикали */
+    justify-content: space-evenly;
     max-width: 600px;
-    height: 45px;
-    border: 1px solid #D9D9D9;
+    padding: 10px; /* Паддинг для внутреннего отступа */
+    box-sizing: border-box; /* Учитывать паддинги и границы в общей ширине */
 }
 
-/*.error {*/
-/*    background: #CC0000;*/
-/*    color: white; !* Better contrast *!*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*    font-size: 14px;*/
-/*    font-weight: 400;*/
-/*    line-height: 17.07;*/
-/*    text-align: left;*/
-/*    margin-top: 5px; !* Space above the error message *!*/
-/*}*/
+/*сделано*/
 
 .input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 600px;
-    border: 1px solid #5e5757;
-    height: 45px;
-    flex: 1;
-    padding: 5px;
+    border: 1px solid #D9D9D9;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
 }
 
 .input:focus {
-    border-color: #0066CC; /* Change border color on focus */
-    outline: none; /* Remove default outline */
-}
-
-.errorInput {
-    display: flex;
     width: 100%;
-    max-width: 600px;
-    position: inherit;
-    height: 45px;
-    border: 1px solid #CC0000;
 }
 
 .button {
     width: 78px;
-    height: 36px;
-    padding: 5px 24px;
+    /* Ширина кнопки */
+    height: 35px;
+    /* Высота кнопки */
+    padding: 5px 0;
+    /* Паддинг для кнопки */
+    cursor: pointer;
     border-radius: 3px;
     background-color: #0066CC;
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 600;
-    line-height: 20px;
-    text-align: center; /* Center text */
-    cursor: pointer; /* Change cursor to pointer */
-    transition: background-color 0.3s; /* Smooth transition */
-    opacity: 1; /* Reset opacity */
+    text-align: center;
 }
 
 .button:hover {
-    background-color: #005bb5; /* Darker shade on hover */
+    background-color: #005bb5;
 }
 
 .button:active {
-    background-color: #004a8a; /* Even darker on active */
+    background-color: #004a8a;
 }
 
 .button:disabled {
@@ -84,11 +66,22 @@
     cursor: not-allowed;
 }
 
+.error {
+    color: #c61616;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.errorInput {
+    border: 1px solid #c61616;
+    border-radius: 2px;
+}
+
 .text {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 19.5;
     text-align: left;
     color: #000000;
 }
@@ -97,8 +90,9 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 500;
-    line-height: 17.07;
     text-align: left;
     color: #000000;
-    margin-bottom: 10px; /* Space below greeting */
 }
+
+
+
