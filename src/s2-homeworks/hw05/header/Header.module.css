@@ -1,28 +1,27 @@
-.burgerMenuIcon {
-    background: rgb(0, 0, 0);
-}
-
 .header {
-    position: absolute;
-    width: 1280px;
-    height: 60px;
-    left: 0;
-    top: 0;
-    box-shadow: 0 0 2px 0 rgba(29, 33, 38, 0.1),0 0 40px 0 rgba(29, 33, 38, 0.13);
-    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Уменьшены отступы для большей компактности */
+    font-size: 24px; /* Чуть уменьшен размер шрифта */
+    background-color: #fff; /* Белый фон для контраста */
+    color: #333; /* Темно-серый цвет текста для хорошей читаемости */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Более мягкая тень */
+    border-bottom: 1px solid #e0e0e0; /* Легкая граница снизу */
 }
 
 .header h1 {
-    position: absolute;
-    width: 124px;
-    height: 29px;
-    left: 1086px;
-    top: 17px;
-    color: rgb(0, 0, 0);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29px;
-    letter-spacing: 0;
+    display: flex;
+    justify-content: center;
     text-align: left;
+    font-size: 24px; /* Увеличен размер для выделения заголовка */
+    margin: 0; /* Убираем отступы */
+    color: #000; /* Четкий черный текст */
 }
+
+.burgerMenuIcon {
+    display: none; /* Скрыть на больших экранах, использовать на мобильных */
+}
+
