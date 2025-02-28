@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hwsecondsprint/static/css/main.c6206e53.css",
+    "main.css": "/hwsecondsprint/static/css/main.3fba7b37.css",
     "main.js": "/hwsecondsprint/static/js/main.a07c2cf6.js",
     "static/js/787.66cb4309.chunk.js": "/hwsecondsprint/static/js/787.66cb4309.chunk.js",
     "static/media/avatar.png": "/hwsecondsprint/static/media/avatar.d947cb9d0d13765666b6.png",
@@ -10,12 +10,12 @@
     "index.html": "/hwsecondsprint/index.html",
     "static/media/checked.svg": "/hwsecondsprint/static/media/checked.0b6a1bcf5d417ff0a947.svg",
     "static/media/burger.svg": "/hwsecondsprint/static/media/burger.e4e6b98e4ee0b2dfcd76d02a9eed2e34.svg",
-    "main.c6206e53.css.map": "/hwsecondsprint/static/css/main.c6206e53.css.map",
+    "main.3fba7b37.css.map": "/hwsecondsprint/static/css/main.3fba7b37.css.map",
     "main.a07c2cf6.js.map": "/hwsecondsprint/static/js/main.a07c2cf6.js.map",
     "787.66cb4309.chunk.js.map": "/hwsecondsprint/static/js/787.66cb4309.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6206e53.css",
+    "static/css/main.3fba7b37.css",
     "static/js/main.a07c2cf6.js"
   ]
 }
